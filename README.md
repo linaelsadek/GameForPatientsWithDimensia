@@ -29,9 +29,8 @@ o	Under image, display a list of images to complete the puzzle of. On click of i
 o	Puzzles help the user focus on details of each puzzle piece in order to assemble the final image. This stimulates the cognitive skills of the user.
 o	Patients with dementia will use this web application to play puzzles. The expectation is that they are playing a game so there is no pressure on them to complete it under a set of time. This helps with enhancing their mood (user satisfaction). In addition to that, it is intuitive, so there is no need for anyone to show them how to use it (learnability). Finally, based on studies, puzzles have been known to slow the progress of dementia (effectiveness).
 
-=================================
-Final Design
-=================================
+# Final Design
+
 Final Design: trivia with puzzle
 -	Outline of behaviour:
 o	Display a question and shuffle an image.
@@ -42,7 +41,6 @@ o	If the user selects the wrong answer, the application will inform the user of 
 o	This design is a mesh between trivia and puzzle games. Puzzle games usually require patience and time, and trivia can put a lot of pressure on the user. This design uses the concept of a puzzle by taking an image and shuffling it. It also uses the concept of trivia by asking a question and providing selection. The puzzle aspect of it will help the user focus on details to try to identify a person using the smaller details provided. This improves the cognitive skills of the user. On the other hand, the trivia will help keep the user engaged, and assert their selection by giving them additional information on the current person in the image. 
 o	This design removes the timer to enhance user satisfaction and make the user focus on the details of the puzzle to get the answer right so, in a way, it helps achieve the goal (effectiveness). Lastly, there is not many components in the UI, it is very easy to learn with no help. 
 
-=================================
-How to run code
-=================================
+# How to run code
+
 Download the application files and run index.html from your preferred browser
