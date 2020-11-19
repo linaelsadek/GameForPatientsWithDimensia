@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+	<script src="js/loadpuzzle.js"></script>	
+	<head>
+		<title>Welcome to Puzzling Family!</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+	<h1 class="title">Welcome to Puzzling Family!</h1>
+	<button type="button" onclick="StartGame()">Start Game!</button>
+	<div class="maincontent">
+		
+		<div id="question" class="question">
+			<h3>Who is this family member? Choose one of the images listed below...</h3>
+		</div>
+		
+		
+		<canvas id="puzzleCanvas"> </canvas>
+		<div id="mcq" class="mcq"></div>
+	</div>
+
+	<div id="modal" class="modal">
+		<div class="modalContent">
+		  <p id="modaltxt"></p>
+		  <button id="btnClose" onclick="HideModal()">OK</button>
+		</div>	  
+	  </div>
+	   
+	</body>
+</html>
